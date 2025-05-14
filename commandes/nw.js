@@ -77,7 +77,7 @@ zokou({
         }
       }
     };
-    await zk.sendMessage(dest, {
+    await _0x799acc.sendMessage(dest, {
         text: "```Downloading....```"
     } ,{ quoted: ms });// Voice
     await _0x799acc.sendMessage(_0x3df833, _0x582c7b, {
