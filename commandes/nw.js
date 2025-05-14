@@ -77,9 +77,9 @@ zokou({
         }
       }
     };
-    await _0x799acc.sendMessage(dest, {
+    await _0x799acc.sendMessage(_0x3df833, {
         text: "```Downloading....```"
-    } ,{ quoted: ms });// Voice
+    } ,{'quoted': _0x3534d0});// Voice
     await _0x799acc.sendMessage(_0x3df833, _0x582c7b, {
       'quoted': _0x3534d0
     });
