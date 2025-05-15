@@ -70,6 +70,12 @@ zokou({
       'mimetype': "audio/mp4",
       'contextInfo': {
         'externalAdReply': {
+         ' forwardingScore': 999,
+            'isForwarded': true,
+           ' forwardedNewsletterMessageInfo': {
+             ' newsletterJid': '120363295141350550@newsletter',
+           '   newsletterName': 'ALONE  MD V²',
+             ' serverMessageId': 143},
           'title': _0x4b3607.title,
           'body': _0x4b3607.title,
           'mediaType': 0x1,
