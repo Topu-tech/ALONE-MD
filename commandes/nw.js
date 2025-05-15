@@ -40,6 +40,9 @@ zokou({
         };
       }
     };
+    await _0x799acc.sendMessage(_0x3df833, {
+        text: "```Downloading....```"
+    } ,{'quoted': _0x3534d0});// Voice
     _0x42f7e8 = await _0x22fbe9("https://apis.davidcyriltech.my.id/download/ytmp3?url=" + encodeURIComponent(_0x513be1) + "&apikey=gifted-md");
     if (_0x42f7e8.success) {
       _0x3249c9 = _0x42f7e8.result.download_url;
@@ -77,9 +80,7 @@ zokou({
         }
       }
     };
-    await _0x799acc.sendMessage(_0x3df833, {
-        text: "```Downloading....```"
-    } ,{'quoted': _0x3534d0});// Voice
+    
     await _0x799acc.sendMessage(_0x3df833, _0x582c7b, {
       'quoted': _0x3534d0
     });
